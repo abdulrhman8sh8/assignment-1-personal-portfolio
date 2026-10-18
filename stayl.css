@@ -1,0 +1,308 @@
+/* 
+  font:
+font-family:roboto;
+ */
+
+body {
+  background-color: #f4f7fb;
+}
+a {
+  text-decoration: none;
+  font-family: roboto;
+  color: #ffffff;
+}
+
+/* Header Section */
+.s-header {
+  width: 77%;
+  background: linear-gradient(126deg, #006478, #033e61, #05304f);
+  margin: auto;
+  border-radius: 24px;
+  padding: 1rem;
+  text-align: center;
+  margin-top: 27px;
+}
+
+.t-name {
+  letter-spacing: 1.8px;
+  color: #ffffff;
+  font-family: roboto;
+  margin: 35px 0;
+  font-size: 35px;
+}
+
+.t-specialty {
+  letter-spacing: 1.8px;
+  color: #c6d0d7;
+  font-family: roboto;
+  margin: 27px 0;
+  font-size: 20px;
+}
+
+.button-header {
+  background: #176187;
+  padding: 11px 22px;
+  margin: 0 3px;
+  font-size: 16px;
+  border-radius: 35px;
+  border: 2px, solid, #337597;
+  display: inline-block;
+  margin: 28px 7px 45px 0;
+}
+
+@media screen and (max-width: 620px) {
+  .button-header {
+    padding: 11px 17px;
+    margin: 15px 0 45px 0;
+    font-size: 14px;
+  }
+}
+
+/* For all Sections */
+.frame-section {
+  width: 77%;
+  background: #ffffff;
+  margin: auto;
+  border-radius: 24px;
+  border: 2px, solid, #e5ebf2;
+  padding: 1rem;
+  margin-top: 38px;
+}
+
+.div-all {
+  margin: 0 30px;
+}
+
+.title-section {
+  letter-spacing: 1.8px;
+  color: #005b72;
+  font-family: roboto;
+  margin: 13px 0 17px 0;
+  font-size: 29px;
+  border-bottom: solid;
+  border-color: #daedff;
+  border-width: 2px;
+  font-weight: 700;
+  display: block;
+  padding: 0 0 16px 0;
+}
+
+.p-Section {
+  letter-spacing: 1.8px;
+  color: #545c6b;
+  font-family: roboto;
+  margin: 13px 0 15px 0;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 42px;
+}
+
+.p-Section-2 {
+  line-height: 35px !important;
+}
+
+/* About Me Section */
+.div-part-2 {
+  display: inline-flex;
+  align-items: center;
+  margin: 13px 0;
+}
+
+.profile {
+  width: 174px;
+  border-radius: 100%;
+  border: 2px, solid, #e5ebf2;
+  margin: 0 48px 0 0;
+}
+
+.t-front-end {
+  color: #e5744a;
+  font-weight: 700;
+}
+
+.button-about {
+  background: #e5744a;
+  padding: 15px;
+  font-size: 18px;
+  border-radius: 8px;
+  border-style: none;
+  display: inline-block;
+}
+
+@media screen and (max-width: 870px) {
+  .div-part-2 {
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .profile {
+    margin: auto;
+  }
+}
+
+/* Skills Section */
+
+.div-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+  padding: 15px 0 30px 0;
+}
+
+.card {
+  background: linear-gradient(126deg, #ffffff, #eff5fd);
+  padding: 22px 16px;
+  border-radius: 18px;
+  border: 2px, solid, #daedff;
+}
+
+.card-title {
+  color: #ff0000;
+  font-family: roboto;
+  font-size: 23px;
+  font-weight: 700;
+}
+
+.t-css {
+  color: #29beed;
+}
+
+.t-js {
+  color: #ffcb01;
+}
+
+.t-react {
+  color: #2983f5;
+}
+
+@media (width >= 1080px) and (width <= 1500px) {
+  .div-cards {
+    grid-template-columns: repeat(auto-fit, minmax(345px, 1fr));
+  }
+}
+
+/* Experience Section */
+
+.card-ex {
+  background: linear-gradient(322deg, #ffffff, #eff5fd);
+  border-radius: 18px;
+  border: 2px, solid, #daedff;
+  padding: 30px;
+  border-left-color: #e5744a;
+  border-left-width: 4px;
+  margin: 30px 0;
+}
+
+.icon-text {
+  display: flex;
+  align-items: flex-start;
+}
+
+.icon-ex {
+  width: 88px;
+  background: #ffffff;
+  padding: 10px;
+  border-radius: 18px;
+  border: 2px, solid, #daedff;
+}
+
+.div-text {
+  margin: 0 0 0 28px;
+}
+
+.titl-ex {
+  color: #000000;
+  font-family: roboto;
+  font-size: 21px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.job-ex {
+  color: #e5744a;
+  font-family: roboto;
+  font-size: 19px;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 605px) {
+  .card-ex {
+    padding: 20px;
+  }
+
+  .icon-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .icon-ex {
+    margin: 0px 0 23px 0;
+  }
+
+  .div-text {
+    margin: 0;
+  }
+}
+
+/* Contact Me Section */
+
+.frame-section-2 {
+  background: linear-gradient(126deg, #006478, #033e61, #05304f) !important;
+}
+
+.title-section-2 {
+  color: #ffffff !important;
+  border-color: rgb(51, 117, 151) !important;
+}
+
+.p-con {
+  color: #ffffff !important;
+}
+
+.button-con {
+  padding: 14px 22px !important;
+  font-size: 17px !important;
+  border-radius: 11px !important;
+}
+
+@media screen and (max-width: 690px) {
+  .div-button-con {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  .button-con {
+    margin: 2px 0 25px 0 !important;
+  }
+}
+
+/* footer Section */
+
+.frame-foot {
+  background: #043050;
+}
+
+.p-foot {
+  color: #ffffff;
+  font-family: roboto;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.p-text-foot {
+  color: #01b1d5;
+}
+
+@media screen and (max-width: 675px){
+
+  .p-text-foot{
+    display:inline-block;
+    
+    text-align: center;
+  }
+
+}
